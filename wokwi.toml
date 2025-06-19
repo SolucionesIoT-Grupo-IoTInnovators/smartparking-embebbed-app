@@ -1,0 +1,9 @@
+[wokwi]
+version = 1
+firmware = '.pio/build/esp32/firmware.bin'
+elf = '.pio/build/esp32/firmware.elf'
+
+# Forward http://localhost:8080 to port 80 on the simulated env
+#[[net.forward]]
+#from = "localhost:1883"
+#to = "target:1883"
