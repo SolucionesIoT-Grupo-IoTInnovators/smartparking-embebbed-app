@@ -64,7 +64,7 @@ void EdgeServerClient::loop()
 
 void EdgeServerClient::publish(const char *topic, const char *payload)
 {
-    if (mqttClient.publish(topic, payload))
+    if (mqttClient.publish(topic, payload, 1))
     {
         Serial.printf("Message published to topic %s: %s\n", topic, payload);
     }
