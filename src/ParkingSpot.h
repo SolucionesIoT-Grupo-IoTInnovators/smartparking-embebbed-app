@@ -18,12 +18,12 @@ private:
   String deviceLabel;
 
 public:
-  static const int LED_RED_PIN = 4;
-  static const int LED_GREEN_PIN = 5;
-  static const int LED_YELLOW_PIN = 18;
+  static const int LED_RED_PIN = 27;
+  static const int LED_GREEN_PIN = 12;
+  static const int LED_YELLOW_PIN = 25;
   static const int TRIG_SENSOR_PIN = 33;
   static const int ECHO_SENSOR_PIN = 32;
-  static const int SERVO_PIN = 2;
+  static const int SERVO_PIN = 26;
   static const int RESERVED_SPOT_EVENT_ID = 2;
   static const int UNRESERVED_SPOT_EVENT_ID = 3;
   static const Event RESERVED_SPOT_EVENT;

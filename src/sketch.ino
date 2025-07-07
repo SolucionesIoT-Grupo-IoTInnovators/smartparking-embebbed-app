@@ -7,7 +7,7 @@
 #include "EdgeServerClient.h"
 #include <LiquidCrystal_I2C.h>
 
-#define THRESHOLD 100.0
+#define THRESHOLD 40.0
 #define WIFI_SSID "Wokwi-GUEST"
 #define WIFI_PASSWORD ""
 #define MQTT_TOPIC_PROV_REQ "provisioning/request"
